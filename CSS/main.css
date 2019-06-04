@@ -2,15 +2,19 @@
   /*border: red solid 1px; /**/
 }
 @font-face {
-    font-family: museo;
-    src: url(assets/fonts/museo/museo-300-webfont.ttf);
-    }
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
 
 body {
     background-image: url(assets/textures/fabric_plaid.png);
     font-family: museo;
     font-size: 18px;
     margin: 0;
+}
+
+body {
+    font-family: "Museo", sans-serif;
 }
 
 main {
