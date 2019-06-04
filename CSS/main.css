@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(assets/textures/fabric_plaid.png);
+    background-image: url(../assets/textures/fabric_plaid.png);
     font-family: museo;
     font-size: 18px;
     margin: 0;
@@ -75,7 +75,7 @@ a, nav p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(assets/images/idea3.jpg);
+    background-image: url(../assets/images/idea3.jpg);
     background-size: cover;
     height: 40vw;
 
@@ -133,7 +133,7 @@ a, nav p {
 }
 
 .button, footer {
-    background-image: url(assets/textures/az_subtle.png);
+    background-image: url(../assets/textures/az_subtle.png);
     background-color: rgba(147, 140, 116, .5);
     background-blend-mode: multiply;
 }
